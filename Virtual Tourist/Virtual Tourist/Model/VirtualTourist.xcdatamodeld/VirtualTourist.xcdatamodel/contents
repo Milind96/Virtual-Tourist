@@ -10,11 +10,11 @@
         <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlStrings" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Photo" inverseName="pin" inverseEntity="Photo" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Photo" positionX="137.20703125" positionY="36.06640625" width="128" height="103"/>
-        <element name="Pin" positionX="-122.0234375" positionY="25.01171875" width="128" height="118"/>
+        <element name="Photo" positionX="-1118.45703125" positionY="871.4375" width="128" height="103"/>
+        <element name="Pin" positionX="-1304.26171875" positionY="864.6328125" width="128" height="118"/>
     </elements>
 </model>
